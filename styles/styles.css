@@ -25,15 +25,4 @@ footer {
   } 
 .main-para {
     font-size: 1.5em;
-    line-height: 1.5em;
-}
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
-
-/* change the values below to your chosen font(s) */
-:root {
---heading-font: "Croissant One";
-  --paragraph-font: Croissant, Helvetica, sans-serif;
- }
+    line-height: 1.5em;}
