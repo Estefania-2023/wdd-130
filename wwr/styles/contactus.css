@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+:root {
+--heading-font: "Ranchers";
+--paragraph-font: Bahnschrift, sans-serif;
+}
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
+.banner {width: 100%}
+.facebook {width: 5%}
+.twitter {width: 5%}
+img {
+    width: 18%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+nav, footer {
+    background-color: rgb(47, 179, 255);
+    color: rgb(245, 255, 103);
+    padding: 10px;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: rgb(237, 255, 132);
+    color: rgb(43, 177, 255);
+}
+.sitemap {
+    display: grid;
+    justify-content: center;
+  
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 3em 1.5em 1.5em 3em;
+    grid-template-areas: ". . home home . ."
+      ". . . top . ."
+      ". left left right right ."
+      "page2 page2 . . page3 page3";
+  }
+  .sitemap > div {
+    text-align: center;
+  }
