@@ -19,8 +19,14 @@ nav, footer {
 .rapidsimg {width: 20%}
 .campingimg {width: 20%}
 .riversimg{width: 20%}
-.facebook {width: 5%}
-.twitter {width: 5%}
+.facebook {width: 100%}
+.twitter {width: 100%}
+.mountain {width: 50%}
+
+id.para1 {
+    background-color: aqua;
+    border: 0ch solid blue;
+}
 
 img {
     width: 10%;
@@ -40,6 +46,16 @@ nav, footer {
     background-color: rgb(114, 217, 235);
     color: rgb(179, 27, 0);
     padding: 10px;
+}
+nav  {
+    list-style-type: none;
+    display: flex;
+  }
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 100px;
 }
 footer p {
   font-size: 1.2em;
