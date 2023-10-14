@@ -107,6 +107,7 @@ nav  {
   list-style-type: none;
   display: flex;
 }
+
 nav a {
   padding:1em;
   min-width: 120px;
