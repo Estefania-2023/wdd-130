@@ -23,9 +23,9 @@ nav, footer {
 .twitter {width: 100%}
 .mountain {width: 50%}
 
-id.para1 {
+#para1 {
     background-color: aqua;
-    border: 0ch solid blue;
+    border: 2px solid blue;
 }
 
 img {

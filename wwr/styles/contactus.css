@@ -12,9 +12,9 @@ h1 {
 nav, footer {
     text-align: center;
 }
-.banner {width: 100%}
-.facebook {width: 5%}
-.twitter {width: 5%}
+.banner {width: 100%; text-align: center}
+.facebook {width: 100%; text-align: center}
+.twitter {width: 100%; text-align: center}
 img {
     width: 18%;
     display: block;
@@ -56,3 +56,13 @@ a:hover {
   .sitemap > div {
     text-align: center;
   }
+nav  {
+    list-style-type: none;
+    display: flex;
+  }
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 100px;
+}
