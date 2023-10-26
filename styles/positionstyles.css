@@ -150,42 +150,45 @@
   .content5 {
     /* This is the parent of the activity 5 boxes. */
     height: 400px;
-    display: grid;
+    display:inline-block;
     grid-template-columns: 50px 50px 50px 50px;
     grid-template-rows: 50px 50px;
     grid-column-gap: 50px 50px 100px 50px;
     grid-column: 50px 50px 50px 50px;
   }
-  .red5 { 
+  .red5 {
     width: 100px; 
     height: 100px; 
     background-color: red;
     width: 1270px;   
     height: 100px;
+    position: relative;
     left: 0px; 
   } 
-  .green5 { 
+  .green5 {
+    position: relative;
+    float: left;
+    display: inline; 
     width: 100px; 
-    height: 100px; 
+    height: 100px;
+    margin-top: 0px; 
     background-color: green; 
-    margin-top: 100px;
-    margin-left: -50px;
   } 
   .yellow5 {
+    position: relative;
     width: 1270px; 
     height: 200px; 
     background-color: gold;
-    margin-top: 100px;
-    margin-left: -100px;
-    padding: 100px 0px 100px 0px;
+    margin-top: 0px;
+    margin-left: 0px;
     z-index:-1
   } 
   .blue5 {
-    width: 1270px; 
+    width: 1270px;
+    position: relative; 
     height: 100px; 
     background-color: blue;
-    margin-top: 400px;
-    margin-left: -150px;
+    margin-top: 0px
   } 
   /* Activity 6 styles */ 
 .content6 {
