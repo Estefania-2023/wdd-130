@@ -16,7 +16,6 @@
     box-shadow: 5px 5px 10px #201716;
     float:none;
     display:flex;
-    box-flex: flex;
     padding: 50px;
 }
 nav, footer {
@@ -92,7 +91,7 @@ body{color: #d9c2a3;}
     background-color: #f3cf03;
     color: #864c00;
   }
-.facebook, .twitter {padding-top: none;
+.facebook, .twitter {
     width: 30px;
     justify-self: center;
     align-self: center;}
@@ -180,7 +179,7 @@ div a {
     min-width: 100px;
     border-radius: 10px;
 }
-.logo{    padding-top: none;
+.logo{
     width: 60px;
     justify-self: center;
     align-self: center;}
@@ -235,7 +234,6 @@ header {
     box-shadow: 5px 5px 10px #201716;
     float:none;
     display:flex;
-    box-flex: flex;
     width: 900px;
     padding: 50px;
 }
@@ -380,7 +378,7 @@ footer {
     background-color: #f3cf03;
     color: #864c00;
   }
-.facebook, .twitter {padding-top: none;
+.facebook, .twitter {
     width: 30px;
     justify-self: center;
     align-self: center;}
