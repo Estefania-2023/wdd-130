@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+:root {
+--heading-font: "Ranchers";
+--paragraph-font: Bahnschrift, sans-serif;
+--paragraph-font-2: Courier New, monospace
+}
+@media screen and (max-width: 900px) { 
+#hero, .home-grid {
+    display: block;
+    height: auto;
+}
+nav, footer {
+    flex-direction: column;
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+nav a {
+    display: block;
+    padding: 15px;
+}
+#hero {
+    margin-top: 0;
+}
+#hero-msg {
+    margin-top: 0;
+}
+#hero-msg h4 {
+    display: none;
+}
+.home-title {
+    font-size: 25px;
+    color: #6f7364;
+}
+.rivers-card, .camping-card, .rapids-card { 
+    margin: 50px auto;
+    width: 80%;
+}
+#background {
+    display: none;
+}
+.mountains, .msg {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    margin-top: 25px;
+}
+}
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: var(--paragraph-font-2)
+}
+#hero {
+    margin-top: 0;
+}
+#hero-msg {
+    margin-top: 0;
+}
+#hero-msg h4 {
+    display: none;
+}
+.home-title {
+    font-size: 25px;
+    color: #f3cf03;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px #201716;}
+div{
+    font-family: var(--paragraph-font-2);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    border-radius: 10px;
+    display: block;
+    display:flex;
+    float: none;
+    margin-left: auto;    
+    margin-right: auto;
+}
+div a {
+    list-style-type: none;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    color: #fcfbfb;
+    text-align: center;
+    min-width: 100px;
+    border-radius: 10px;
+}
+.logo{    padding-top: none;
+    width: 60px;
+    justify-self: center;
+    align-self: center;}
+
+header {
+        display: grid;
+        display:flex;
+        grid-template-columns: 150px auto;
+        background-color: rgb(24, 168, 168);
+        color: rgb(0, 15, 97);
+        text-align: center;
+        justify-content:space-around;      
+    }
+.flex-container{
+    display: flex;
+    flex-wrap:wrap;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap:30px;
+    justify-content: space-between;
+    max-width: 100vw;
+}
+.a{
+    font-size: 3em;
+    width: 100px;
+    text-align: center;
+    display: block;
+    line-height: 1.5;
+}
+a:hover {
+    background-color: rgb(255, 117, 36);
+    color: rgb(24, 0, 16);
+}
+#hero {
+    margin-top: 0;
+}
