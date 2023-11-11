@@ -46,7 +46,9 @@ div a {
     min-width: 100px;
     border-radius: 10px;
 }
+.page, .header{flex-direction: column}
 #home-grid {
+    flex-direction: column;
     margin-top: 0;
 }
 #hero-msg {
@@ -56,11 +58,12 @@ div a {
     display: none;
 }
 .home-title {
-    font-size: 25px
+    font-size: 25px;
+    color: #201716;
 }
-.image1, .image2, .image3, .image4 {width: 300px; position: absolute;
-    display:block;
+.image1, .image2, .image3, .image4 {width: 300px; position: relative;
     display:grid;
+    flex-direction:row-reverse;
     }
 #background {
     display: none;
@@ -70,6 +73,7 @@ div a {
     display: block;
     margin: 0 auto;
 }
+body{color: #d9c2a3;}
 .sitemap {
     display: grid;
     flex-wrap:wrap;
