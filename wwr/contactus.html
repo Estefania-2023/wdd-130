@@ -11,18 +11,43 @@
 <body>
 <article>
     <header>
-    <main>
         <img class="banner" src="https://byui-wdd.github.io/wdd130/rafting_images/hero.png" alt="Whitewater banner" target="_blank">
         <img class="logo" src="images/logo.png" alt="Logo image" target="_blank">
         <h1>Contact Us and Join us</h1>
-        
-        <nav><a id="logo_facebook" href="https://www.facebook.com/cityofwhitewater/" target="_blank">
+        <form id="form" action="/">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
+            <button type="submit">Send</button>
+          </form>
+          <nav><a id="logo_facebook" href="https://www.facebook.com/cityofwhitewater/" target="_blank">
             <img class="facebook" src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="facebook" target="_blank"> Facebook </a>
         </nav>
         <nav><a id="logo_twitter" href="https://twitter.com/WhiteWaterWest/media" target="_blank">
             <img class="twitter" src="https://byui-wdd.github.io/wdd130/rafting_images/twitter.png" alt="twitter" target="_blank"> Twitter </a>
         </nav>
-    </main>
+        <div id="feedback"></div>
+        <script>
+    const feedbackElement = document.getElementById('feedback');
+    const formElement = document.forms[0];
+    formElement.addEventListener('submit', function(e) {
+        e.preventDefault();
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        feedbackElement.style.display = "block";
+        document.body.classList.toggle('moveDown');
+    });
+</script>
 </header>
 </article>
 </body>
