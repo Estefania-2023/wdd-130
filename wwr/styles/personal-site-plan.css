@@ -29,6 +29,13 @@ Fonts are separated by a | */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+footer {background-color: #F7E141;}
+#social-media {font-family: var(--paragraph-font);
+text-decoration: none;
+list-style-type: none;
+display: block;
+float: none;}
+
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -112,6 +119,13 @@ nav  {
 
 }
 nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+
+}
+div a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
