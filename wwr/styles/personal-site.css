@@ -84,7 +84,7 @@ header, footer {background-color: #F7E141;}
 display:block; 
 margin: 0 auto;
 }
-#part1, #part2, #part3 {padding: 1.5em}
+#part1, #part2, #part3 {padding: 5em}
 
 #part1 {margin-top: 200px;}
 #part2, #part3 {margin-top: 50px;}
