@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+:root {
+    --primary-color: #017EC6   ;
+    --secondary-color: #F7E141 ;
+    --accent1-color: #6C0087;
+    --accent2-color: #D750F5;
+
+    --heading-font: Agbalumo;
+    --paragraph-font: Roboto, monospace, sans-serif;
+  
+
+    --headline-color-on-white: #017EC6;  
+    --headline-color-on-color: #D750F5;  
+    --paragraph-color-on-white: #017EC6;  
+    --paragraph-color-on-color: #D750F5; 
+    --paragraph-background-color: #6C0087  ;
+    --nav-link-color: #017EC6;
+    --nav-background-color: #F7E141;
+    --nav-hover-link-color: #D750F5;
+    --nav-hover-background-color: #017EC6;
+  }
