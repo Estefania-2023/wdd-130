@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Mono:wght@100&display=swap');
 :root {
     --primary-color: #017EC6   ;
     --secondary-color: #F7E141 ;
@@ -18,4 +18,178 @@
     --nav-background-color: #F7E141;
     --nav-hover-link-color: #D750F5;
     --nav-hover-background-color: #017EC6;
+}
+
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    justify-content: space-around;
+    font-family: var(--heading-font);
+    color: #F7E141
+}
+
+div {text-decoration: none;
+    list-style-type: none;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    border-radius: 10px;
+    margin-left: auto;    
+    margin-right: auto;
+    float: none;}
+div, nav, footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family:var(--paragraph-font)
+}
+nav  {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    min-width: 100px;
+    border-radius: 10px;
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    padding: 15px;
+  }
+  div a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    float: none;
+  }
+  div a:link, nav a:visited {
+    color: #017EC6;
+  }
+  div a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    border-radius: 10px;
+  }
+
+header, footer {background-color: #F7E141;}
+
+#hero, #part1, #part2, #part3{position:static;
+display:block; 
+margin: 0 auto;
+}
+#part1, #part2, #part3 {padding: 1.5em}
+
+#part1 {margin-top: 200px;}
+#part2, #part3 {margin-top: 50px;}
+.banner{position:absolute;
+transition: transform .5s;
+box-shadow: 5px 5px 10px #6f7364;
+width:100%;
+display:block}
+
+.image1, .image2, .image3{position:relative}
+.h1{position:relative}
+.whatsapp,.twitter, .facebook{padding: 2em;}
+.logo{padding: 1em;}
+.image1{
+    position:relative;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #201716;
+    margin-left: 400px;
+    display:block
+}
+#para1 { 
+    font-family: var(--paragraph-font);
+    display: block; 
+    position:absolute; 
+    width: 200px;
+    padding: 50px;
+    box-shadow: 5px 5px 10px #201716;
+    margin-left: 700px;
+    margin-top: -20px;
+    border-radius: 10px;
+    color:#6C0087;
+    background-color: #D750F5;
+    border: 10px solid #017EC6}
+    
+.image2{
+        position:relative;
+        margin-right: 400px;
+        box-shadow: 5px 5px 10px #201716;
+        margin-left: auto;
+        display:block
+    }
+#para2 { 
+        font-family: var(--paragraph-font);
+        display: block; 
+        position:absolute;
+        box-shadow: 5px 5px 10px #201716; 
+        width: 200px;
+        padding: 50px;
+        margin-left: -700px;
+        margin-top: -20px;
+        border-radius: 10px;
+        color:#6C0087;
+        background-color: #D750F5;
+        border: 10px solid #017EC6}
+        
+.image3{
+            position:relative;
+            margin-right: auto;
+            margin-top: 200px;
+            box-shadow: 5px 5px 10px #201716;
+            margin-left: 400px;
+            display:block
+}
+#para3 { 
+            font-family: var(--paragraph-font);
+            display: block; 
+            position:absolute; 
+            width: 200px;
+            padding: 100px;
+            margin-left: 600px;
+            margin-top: 100px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #201716;
+            color:#6C0087;
+            background-color: #D750F5;
+            border: 10px solid #017EC6
+} 
+
+            
+.button {  position:absolute;  
+    display: block; 
+width: 90px;
+padding: 3px;
+float: none;
+margin-left:-700px;
+font-family: var(--paragraph-font);
+color:#6C0087;
+background-color: #F7E141;
+border: 10px solid #6C0087;
+transition: transform .5s;
+box-shadow: 5px 5px 10px #6f7364;
+border-radius: 20px;}
+
+.button:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.banner:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.sitemap > div {
+
+    text-align: center;
+  
   }
