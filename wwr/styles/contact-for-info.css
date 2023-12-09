@@ -27,7 +27,7 @@ h1 {
     text-align: center;
     justify-content: space-around;
     font-family: var(--heading-font);
-    color: #D750F5
+    color: #F7E141
 }
 h2 {
     text-align: center;
@@ -78,7 +78,7 @@ nav  {
   div a:link, nav a:visited {
     color: #017EC6;
   }
-  div a:hover {
+div a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
     border-radius: 10px;
@@ -92,14 +92,14 @@ margin: 0 auto;
 }
 #part1, #part2, #part3 {padding: 5em}
 
-#part1 {margin-top: 200px;}
-#part2, #part3 {margin-top: 100px;padding:5em}
+#part1 {margin-top: 50px;}
+#part2, #part3 {margin-top: 20px;padding:5em}
 .banner{position:relative;
 transition: transform .5s;
 box-shadow: 5px 5px 10px #6f7364;
 width:100%;
 display:block}
-.h1{font-size: 250px;
+.h1{font-size: 180px;
     text-align: center;}
 .image1, .image2{position:relative}
 .h1{position:absolute}
@@ -121,10 +121,9 @@ display:block}
 #para1 { 
     font-family: var(--paragraph-font);
     display: block; 
-    position:absolute; 
+    position:relative; 
     width: 200px;
     padding: 50px;
-    margin-right:700px;
     box-shadow: 5px 5px 10px #201716;
     margin-top: 0px;
     border-radius: 10px;
@@ -135,14 +134,53 @@ display:block}
 #para2 { 
     font-family: var(--paragraph-font);
     display: block; 
-    position:absolute; 
+    position:relative; 
     width: 200px;
     padding: 50px;
     box-shadow: 5px 5px 10px #201716;
-    margin-left:700px;
     margin-top: -50px;
     border-radius: 10px;
     color:#6C0087;
     background-color: #D750F5;
     border: 10px solid #017EC6
 }
+.button {
+    border: none;
+    position:relative;
+margin:auto; 
+    display: block; 
+    width: 400px;
+height: 90px;
+font-size: 30px;
+padding: 2px;
+float: none;
+font-family: var(--paragraph-font);
+color:#6C0087;
+background-color: #F7E141;
+border: 10px solid #6C0087;
+transition: transform .5s;
+box-shadow: 5px 5px 10px #6f7364;
+border-radius: 20px
+}
+footer{margin-top: 100px;}
+a {
+    text-decoration: none;
+    font-size: 22px;}
+    .button:hover {
+        opacity: .6;
+        transform: scale(1.1);
+    }
+    .button2:hover {
+        opacity: .6;
+        transform: scale(1.1);
+    }
+    .banner:hover {
+        opacity: .6;
+        transform: scale(1.1);
+    }
+    
+    .sitemap > div {
+    
+        text-align: center;
+      
+      }
