@@ -90,10 +90,10 @@ header, footer {background-color: #F7E141;}
 display:block; 
 margin: 0 auto;
 }
-#part1, #part2, #part3 {padding: 5em}
+
 
 #part1 {margin-top: 50px;}
-#part2, #part3 {margin-top: 20px;padding:5em}
+#part2, #part3 {margin-top: 20px;}
 .banner{position:relative;
 transition: transform .5s;
 box-shadow: 5px 5px 10px #6f7364;
@@ -101,7 +101,7 @@ width:100%;
 display:block}
 .h1{font-size: 180px;
     text-align: center;}
-.image1, .image2{position:relative}
+.image1, .image2, .image3{position:relative}
 .h1{position:absolute}
 .whatsapp,.twitter, .facebook{padding: 2em;}
 .logo{padding: 1em;}
@@ -110,19 +110,21 @@ display:block}
     box-shadow: 5px 5px 10px #201716;
     display:block
 }
-.image2{
+.image2, .image3{
     position:relative;
     box-shadow: 5px 5px 10px #201716;
     display:block
 }
+
+#para1, #para2, #para3 {padding:50px}
 #para1 { 
     font-family: var(--paragraph-font);
     display: block; 
     position:relative; 
     width: 200px;
-    padding: 50px;
     box-shadow: 5px 5px 10px #201716;
-    margin-top: 0px;
+    margin-left: auto;    
+    margin-right: auto;
     border-radius: 10px;
     color:#6C0087;
     background-color: #D750F5;
@@ -133,9 +135,23 @@ display:block}
     display: block; 
     position:relative; 
     width: 200px;
-    padding: 50px;
     box-shadow: 5px 5px 10px #201716;
-    margin-top: -50px;
+    margin-left: auto;    
+    margin-right: auto;
+    border-radius: 10px;
+    color:#6C0087;
+    background-color: #D750F5;
+    border: 10px solid #017EC6
+}
+
+#para3 { 
+    font-family: var(--paragraph-font);
+    display: block; 
+    position:relative; 
+    width: 200px;
+    box-shadow: 5px 5px 10px #201716;
+    margin-left: auto;    
+    margin-right: auto;
     border-radius: 10px;
     color:#6C0087;
     background-color: #D750F5;
@@ -160,6 +176,7 @@ box-shadow: 5px 5px 10px #6f7364;
 border-radius: 20px
 }
 footer{margin-top: 100px;}
+body{background-color: #762e7cab;}
 
 a {
     text-decoration: none;
